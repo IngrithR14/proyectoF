@@ -28,7 +28,7 @@
                 <span class="input-group-text" id="inputGroup-sizing-default1">Nombre</span>
                 <label type="text" class="form-control" aria-label="Sizing example input"
                        aria-describedby="inputGroup-sizing-default"></label>
-                <a href="index.jsp" class="btn btn-primary" >Cerrar sesion</a>
+                <a href="Index.html" class="btn btn-primary" >Cerrar sesion</a>
 
             </div>
         </div>
@@ -213,7 +213,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
     <script src="script.js"></script>
 

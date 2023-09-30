@@ -14,7 +14,7 @@
 <body style="height: 120vh; background: repeating-conic-gradient(rgb(32, 106, 93), rgb(75, 3, 117) 60%,rgb(76, 78, 76) 30%);margin: 0; backdrop-filter: blur(80px); ">
 
 <div class="card border-light mb-3"style=" position: absolute; margin-left: 10%; margin-top: 120px; background-color: rgba(255, 255, 255, 0.473); width: 80%;">
-    <div style="width: 100px; height: 100px; border-radius: 50%; position: absolute; left: 50%; transform: translate(-50%, -50%); border: 2px solid aliceblue; background-image: url('recursos/person.png'); background-size: cover; background-position: center;"></div>
+    <div style="width: 100px; height: 100px; border-radius: 50%; position: absolute; left: 50%; transform: translate(-50%, -50%); border: 2px solid aliceblue; background-image: url(null); background-size: cover; background-position: center;"></div>
 
     <div class="card-header"><H4>STUDENT</H4></div>
 
@@ -44,7 +44,8 @@
             <label for="exampleInputEmail1" class="form-label">Grade point average</label>
             <input type="email" class="form-control" id="exampleInputEmail14" aria-describedby="emailHelp" disabled>
         </div>
-        <button type="submit" class="btn btn-primary" > <a href="index2.jsp">See Subjects</a></button>
+        <a href="index2.jsp" class="btn btn-primary" id="showPopupButton">Ingresar</a>
+
 
     </div>
 </div>
