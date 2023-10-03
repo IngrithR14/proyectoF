@@ -157,22 +157,20 @@
                 <h5 class="card-title">Agregar Asignatura</h5>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Code</label>
-                    <input type="email" class="form-control" id="exampleInputEmail0" aria-describedby="emailHelp" >
-                </div>
-                <div class="mb-3">
+                    <input type="text" class="form-control" id="codigom" name="codigom" aria-describedby="emailHelp" >
                     <label for="exampleInputEmail1" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" >
-                </div>
-                <div class="mb-3">
+                    <input type="text" class="form-control" id="nombrem" name="nombrem" aria-describedby="emailHelp" >
                     <label for="exampleInputEmail1" class="form-label">Profesor</label>
-                    <input type="password" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp" >
+                    <input type="text" class="form-control" id="profesorm" name="profesorm" aria-describedby="emailHelp" >
+                    <label for="exampleInputEmail1" class="form-label">N.Creditos</label>
+                    <input type="number" class="form-control" id="creditosm" name="creditosm" aria-describedby="emailHelp" >
+                    <br><br>
+                    <a href="#" class="btn btn-primary" >Agregar Asignatura</a>
+                    <a href="#" id="closePopup8" class="btn btn-primary">Cancelar</a>
                 </div>
 
-                <a href="#" class="btn btn-primary">Agregar Asignatura</a>
-                <a href="#" id="closePopup8" class="btn btn-primary">Cancelar</a>
-
-            </div>
         </div>
+    </div>
     </div>
 
 
@@ -214,7 +212,7 @@
         </div>
     </div>
 
-
+</div>
     <script src="script.js"></script>
 
 </body>
